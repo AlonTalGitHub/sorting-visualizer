@@ -1,0 +1,38 @@
+.app-body {
+    background-color: #282c34;
+}
+
+.main-content-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.array-container {
+    display: flex;
+    position: relative;
+    margin-top: auto;
+    background-color: #282c34;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.array-bar {
+    width: 6px;
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 0px 2px 0px 2px;
+    z-index: 999;
+}
+
+
+.arrays-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
